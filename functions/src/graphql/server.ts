@@ -12,10 +12,10 @@ function gqlServer() {
     resolvers,
     // Enable graphiql gui
     introspection: true,
-    playground: true
+    playground: true,
   });
 
-  apolloServer.applyMiddleware({ app, path: '/', cors: true });
+  apolloServer.applyMiddleware({ app, path: '/' });
 
   return app;
 }
