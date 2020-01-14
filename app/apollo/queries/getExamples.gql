@@ -1,0 +1,6 @@
+query {
+  samples {
+    id,
+    title
+  }
+}
